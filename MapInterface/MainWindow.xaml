@@ -7,6 +7,114 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="99*"/>
+            <RowDefinition Height="76*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="79*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="38*"/>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="71*"/>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="99*"/>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="36*"/>
+                <ColumnDefinition Width="116*"/>
+                <ColumnDefinition Width="68*"/>
+                <ColumnDefinition Width="39*"/>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="54*"/>
+                <ColumnDefinition Width="64*"/>
+                <ColumnDefinition Width="75*"/>
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="skud17" Grid.Column="0">
+                
+            </Grid>
+            <Grid x:Name="skud18" Grid.Column="1">
 
+            </Grid>
+            <Grid x:Name="skud19" Grid.Column="2">
+
+            </Grid>
+            <Grid x:Name="skud20" Grid.Column="3">
+
+            </Grid>
+            <Grid x:Name="skud21" Grid.Column="4">
+
+            </Grid>
+            <Grid x:Name="skud22" Grid.Column="5">
+
+            </Grid>
+            <Grid x:Name="skud0" Grid.Column="7">
+
+            </Grid>
+            <Grid x:Name="skud1" Grid.Column="8">
+
+            </Grid>
+            <Grid x:Name="skud2" Grid.Column="9">
+
+            </Grid>
+            <Grid x:Name="skud3" Grid.Column="10">
+
+            </Grid>
+            <Grid x:Name="skud4" Grid.Column="11">
+
+            </Grid>
+            <Grid x:Name="skud5" Grid.Column="12">
+
+            </Grid>
+            <Grid x:Name="skud6" Grid.Column="13">
+
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="67*"/>
+                <ColumnDefinition Width="107*"/>
+                <ColumnDefinition Width="141*"/>
+                <ColumnDefinition Width="33*"/>
+                <ColumnDefinition Width="96*"/>
+                <ColumnDefinition Width="56*"/>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="54*"/>
+                <ColumnDefinition Width="99*"/>
+                <ColumnDefinition Width="104*"/>
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="skud16" Grid.Column="0">
+
+            </Grid>
+            <Grid x:Name="skud15" Grid.Column="1">
+
+            </Grid>
+            <Grid x:Name="skud14" Grid.Column="2">
+
+            </Grid>
+            <Grid x:Name="skud13" Grid.Column="3">
+
+            </Grid>
+            <Grid x:Name="skud12" Grid.Column="4">
+
+            </Grid>
+            <Grid x:Name="skud11" Grid.Column="5">
+
+            </Grid>
+            <Grid x:Name="skud10" Grid.Column="6">
+
+            </Grid>
+            <Grid x:Name="skud9" Grid.Column="7">
+
+            </Grid>
+            <Grid x:Name="skud8" Grid.Column="8">
+
+            </Grid>
+            <Grid x:Name="skud7" Grid.Column="9">
+
+            </Grid>
+        </Grid>
+        <Image Source="/Resources/Помещения больницы + СКУД.png" Grid.RowSpan="5"/>
     </Grid>
 </Window>
