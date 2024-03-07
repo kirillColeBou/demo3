@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="80*"/>
             <RowDefinition Height="99*"/>
@@ -14,7 +15,8 @@
             <RowDefinition Height="100*"/>
             <RowDefinition Height="79*"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="1">
+        <Image Source="/Resources/Помещения больницы + СКУД.png" Grid.RowSpan="5"/>
+        <Grid Grid.Row="1" x:Name="row0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="38*"/>
                 <ColumnDefinition Width="35*"/>
@@ -32,7 +34,6 @@
                 <ColumnDefinition Width="75*"/>
             </Grid.ColumnDefinitions>
             <Grid x:Name="skud17" Grid.Column="0">
-                
             </Grid>
             <Grid x:Name="skud18" Grid.Column="1">
 
@@ -71,7 +72,7 @@
 
             </Grid>
         </Grid>
-        <Grid Grid.Row="3">
+        <Grid Grid.Row="3" x:Name="row1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="67*"/>
                 <ColumnDefinition Width="107*"/>
@@ -115,6 +116,6 @@
 
             </Grid>
         </Grid>
-        <Image Source="/Resources/Помещения больницы + СКУД.png" Grid.RowSpan="5"/>
+ 
     </Grid>
 </Window>
